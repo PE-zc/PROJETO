@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Daily study</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <h1>Daily study</h1>
+        <h2>Crie sua Conta</h2>
+        
+        <form id="registerForm">
+            <input type="text" id="username" placeholder="Nome de Usuário">
+            <input type="email" id="emailRegistro" placeholder="E-mail" required>
+            <input type="password" id="senhaRegistro" placeholder="Senha" required>
+            <button type="submit" class="submit-button">Registrar</button>
+            <p id="mensagemSucesso" style="color: lightgreen; margin-top: 15px; display: none;">Registro realizado com sucesso!</p>
+            <p id="mensagemErroRegistro" class="error-message" style="display: none;"></p>
+        </form>
+        <p style="margin-top: 15px; font-size: 0.9rem; color: #ccc;">
+            Já tem conta? <a href="login.html" style="color: var(--marrom-claro); text-decoration: none;">Faça Login</a>
+        </p>
+    </div>
+
+    <script src="registro.js"></script>
+   
+</body>
+</html>
