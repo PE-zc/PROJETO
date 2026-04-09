@@ -19,9 +19,9 @@ public class UsuarioController {
 
     @PostMapping("/registro") // Mapeia a requisicao HTTP para criar um novo usuario no banco de dados
     public ResponseEntity<Usuario> registro(@RequestBody RegistroUsuario dto) {
-        Usuario newUsuario = usuarioService.RegistroUsuario(dto);
+        Usuario newUsername = usuarioService.RegistroUsuario(dto);
 
-        return ResponseEntity.ok(newUsuario);
+        return ResponseEntity.ok(newUsername);
 
     }
 }

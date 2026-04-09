@@ -14,7 +14,7 @@ public class Usuario {
     @Id
     //O Id garante que cada usuario tenha um registro proprio
     private String id;
-    private String usuario;
+    private String username;
     private String email;
     private String senha;
 }
